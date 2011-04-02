@@ -1,0 +1,18 @@
+A very simple Diem based online store, with using sfShoppingCartPlugin.
+It is not ready for production, use it for learning and feel free for fork and modify it.
+
+Installation
+
+$ git clone git@github.com:228vit/dmshop.git
+$ cd dmshop
+$ cp config/databases.yml.dist databases.yml
+$ nano databases.yml
+$ php symfony dm:setup
+$ php symfony doctrine:insert-sql
+$ php symfony doctrine:data-load
+
+backend login
+login: admin
+password: pass
+
+Feel free to use it
