@@ -1,0 +1,44 @@
+generator:
+  class: dmAdminDoctrineGenerator
+  param:
+    model_class: Category
+    theme: dmAdmin
+    non_verbose_templates: true
+    with_show: false
+    route_prefix: category
+    with_doctrine_route: false
+    i18n_catalogue: dm
+    config:
+      actions: ~
+      fields:
+        is_active:
+          label: Active
+      list:
+        display:
+          - '=name'
+          - photo
+          - product_list
+          - description
+          - is_active
+        sort:
+          - position
+          - asc
+        table_method: getAdminListQuery
+        table_count_method: ~
+        sortable: true
+      filter:
+        display:
+          - name
+          - is_active
+          - description
+          - photo
+      form:
+        display:
+          NONE: [name, is_active]
+          Photo: [photo_form, photo_view]
+          Description: [description]
+          Products: [product_list]
+        class: CategoryAdminForm
+        fields: {  }
+      edit: ~
+      new: ~

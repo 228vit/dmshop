@@ -1,0 +1,71 @@
+options:
+  charset:  utf8
+  collate:  utf8_unicode_ci
+
+Category:
+  actAs:              [ Sortable ]
+  columns:
+    name:             { type: string(255), notnull: true, unique: true }
+    description:      { type: clob, extra: markdown }
+    photo:            { type: integer }
+    is_active:        { type: boolean, notnull: true, default: true }
+  relations:
+    Photo:
+      class:          DmMedia
+      local:          photo
+      onDelete:       RESTRICT
+
+Product:
+  actAs:              [ Timestampable, Sortable ]
+  columns:
+    name:             { type: string(255), notnull: true, unique: true }
+    description:      { type: clob, extra: markdown }
+    photo:            { type: integer }
+    category:         { type: integer }
+    price:            { type: float, notnull: true, default: 0 }
+    price_action:     { type: float, notnull: true, default: 0 }
+    is_in_action:     { type: boolean, notnull: true, default: 0 }
+    is_active:        { type: boolean, notnull: true, default: 1 }
+  relations:
+    Photo:
+      class:          DmMedia
+      local:          photo
+      onDelete:       RESTRICT
+    Category:
+      class:          Category
+      local:          category
+      onDelete:       CASCADE
+
+Order:
+  tableName:          orders
+  actAs:              [ Timestampable ]
+  columns:
+    company:          { type: string(255), notnull: true }
+    email:            { type: string(255), notnull: true }
+    contact:          { type: string(255), notnull: true }
+    phone:            { type: string(255), notnull: true }
+    ship_address:     { type: string(255), notnull: true }
+    ship_date:        { type: date }
+    ship_time:        { type: string(100) }
+    ship_address:     { type: string(255) }
+    note:             { type: clob }
+    uid:              { type: string(255) }
+
+
+OrderDetail:
+  columns:
+    product_id:       { type: integer }
+    order_id:         { type: integer }
+    quantity:         { type: integer, default: 1 }
+    price:            { type: float, notnull: true, default: 0 }
+  relations:
+    Product:
+      class:          Product
+      local:          product_id
+      onDelete:       CASCADE
+    Order:
+      class:          Order
+      local:          order_id
+      onDelete:       CASCADE
+
+

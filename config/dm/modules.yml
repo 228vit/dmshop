@@ -1,0 +1,41 @@
+Content:
+
+  Global:
+  
+    main:                   # the main module is required, and must not be removed.
+      components:
+        header:
+        footer:
+
+    Category:
+      name:           Category|Categories
+      page:           true
+      admin:          true
+      components:
+        listOnMainPage:
+        listOnSidebar:
+        list:
+        show:
+
+    Product:
+      name:           Product|Products
+      page:           true
+      admin:          true
+      parent:         category
+      components:
+        list:
+        show:
+        listByCategory:
+          filters: category
+        listByAction:
+        shortCart:
+        viewCart:
+
+    Order:
+      page:           false
+      admin:          true
+      name:           Order|Orders
+      components:
+        form:
+        view:
+

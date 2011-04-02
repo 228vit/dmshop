@@ -1,0 +1,19 @@
+= sfShoppingCartPlugin plugin =
+
+The `sfShoppingCartPlugin` manages a typical shopping cart.
+
+== Installation ==
+
+  * Install the plugin
+  
+  {{{
+    symfony plugin-install http://plugins.symfony-project.com/sfShoppingCartPlugin
+  }}}
+
+  * Clear you cache
+
+  {{{
+    symfony cc
+  }}}
+
+  * You're done.

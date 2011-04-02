@@ -1,0 +1,2 @@
+&copy; my store
+<?php

@@ -1,0 +1,1692 @@
+Product:
+  Product_1:
+    name: Toshiba
+    description: toshiba
+    Photo: DmMedia_2
+    Category: Category_1
+    price: '1000.00'
+    price_action: '999.00'
+    is_in_action: true
+    is_active: true
+    created_at: '2011-04-01 15:57:41'
+    updated_at: '2011-04-01 15:57:41'
+    position: '-1'
+  Product_2:
+    name: Asus
+    description: asus
+    Photo: DmMedia_3
+    Category: Category_1
+    price: '0.00'
+    price_action: '0.00'
+    is_in_action: false
+    is_active: true
+    created_at: '2011-04-01 17:10:59'
+    updated_at: '2011-04-01 17:11:51'
+    position: '-2'
+Category:
+  Category_1:
+    name: Notebooks
+    description: 'notebooks goes here'
+    Photo: DmMedia_1
+    is_active: true
+    position: '-1'
+Order:
+  Order_1:
+    company: Roga
+    email: nak-vit@inbox.ru
+    contact: Kisa
+    phone: '+7 916'
+    ship_address: ''
+    ship_date: null
+    ship_time: ''
+    note: ''
+    uid: 2d52268cf1823edd4590604ad2cb2875
+    created_at: '2011-04-01 19:35:06'
+    updated_at: '2011-04-01 19:35:06'
+  Order_2:
+    company: Roga
+    email: nak-vit@inbox.ru
+    contact: Kisa
+    phone: '+7 916'
+    ship_address: ''
+    ship_date: null
+    ship_time: ''
+    note: ''
+    uid: 910bb56b1d118ae1f68445fdec47e96c
+    created_at: '2011-04-01 19:37:08'
+    updated_at: '2011-04-01 19:37:08'
+  Order_3:
+    company: Roga
+    email: nak-vit@inbox.ru
+    contact: Kisa
+    phone: '+7 916'
+    ship_address: ''
+    ship_date: null
+    ship_time: ''
+    note: ''
+    uid: 547afa37e9ef3f0a0474a7e70a2b827d
+    created_at: '2011-04-01 19:39:46'
+    updated_at: '2011-04-01 19:39:47'
+  Order_4:
+    company: Roga
+    email: nak-vit@inbox.ru
+    contact: Kisa
+    phone: '+7 916'
+    ship_address: ''
+    ship_date: null
+    ship_time: ''
+    note: ''
+    uid: 83fa2b711f9d0f5983ec69fbac85509b
+    created_at: '2011-04-01 19:48:17'
+    updated_at: '2011-04-01 19:48:18'
+  Order_5:
+    company: Roga
+    email: nak-vit@inbox.ru
+    contact: Kisa
+    phone: '+7 916'
+    ship_address: ''
+    ship_date: null
+    ship_time: ''
+    note: ''
+    uid: 05f9e0851b47f5cd16ac4adf46d0a05a
+    created_at: '2011-04-01 19:51:09'
+    updated_at: '2011-04-01 19:51:10'
+  Order_6:
+    company: Roga
+    email: nak-vit@inbox.ru
+    contact: Kisa
+    phone: '+7 916'
+    ship_address: ''
+    ship_date: null
+    ship_time: ''
+    note: ''
+    uid: 6182dbd13903f8d1b05c69217c54afec
+    created_at: '2011-04-01 19:55:07'
+    updated_at: '2011-04-01 19:55:07'
+DmUser:
+  DmUser_1:
+    username: admin
+    email: admin@dmshop.com
+    algorithm: sha1
+    salt: 83c804df21b821f56ab95a032aab2880
+    password: 0780ddc80e9dd6fc2de0bc56f9acc03ddf9ed77e
+    is_active: true
+    is_super_admin: true
+    last_login: '2011-04-02 02:00:23'
+    forgot_password_code: null
+    created_at: '2011-04-01 15:42:11'
+    updated_at: '2011-04-01 15:42:11'
+DmGroup:
+  DmGroup_1:
+    name: developer
+    description: 'Able to read and update source code'
+    created_at: '2011-04-01 15:42:10'
+    updated_at: '2011-04-01 15:42:10'
+  DmGroup_2:
+    name: seo
+    description: 'Seo knowledge'
+    created_at: '2011-04-01 15:42:10'
+    updated_at: '2011-04-01 15:42:10'
+  DmGroup_3:
+    name: integrator
+    description: Integrator
+    created_at: '2011-04-01 15:42:10'
+    updated_at: '2011-04-01 15:42:10'
+  DmGroup_4:
+    name: 'webmaster 1'
+    description: 'Webmaster level 1'
+    created_at: '2011-04-01 15:42:11'
+    updated_at: '2011-04-01 15:42:11'
+  DmGroup_5:
+    name: writer
+    description: Writer
+    created_at: '2011-04-01 15:42:11'
+    updated_at: '2011-04-01 15:42:11'
+  DmGroup_6:
+    name: front_editor
+    description: 'Can fast edit front widgets'
+    created_at: '2011-04-01 15:42:11'
+    updated_at: '2011-04-01 15:42:11'
+DmRememberKey:
+  DmRememberKey_127.0.0.1:
+    User: DmUser_1
+    remember_key: 0de4bb15b72032e374fe09cae0c8a7ab
+    ip_address: 127.0.0.1
+    created_at: '2011-04-01 15:53:34'
+DmGroupPermission:
+  DmGroupPermission_1_1:
+    Group: DmGroup_1
+    Permission: DmPermission_1
+  DmGroupPermission_2_2:
+    Group: DmGroup_2
+    Permission: DmPermission_2
+  DmGroupPermission_3_2:
+    Group: DmGroup_3
+    Permission: DmPermission_2
+  DmGroupPermission_4_2:
+    Group: DmGroup_4
+    Permission: DmPermission_2
+  DmGroupPermission_5_2:
+    Group: DmGroup_5
+    Permission: DmPermission_2
+  DmGroupPermission_3_5:
+    Group: DmGroup_3
+    Permission: DmPermission_5
+  DmGroupPermission_3_9:
+    Group: DmGroup_3
+    Permission: DmPermission_9
+  DmGroupPermission_4_9:
+    Group: DmGroup_4
+    Permission: DmPermission_9
+  DmGroupPermission_5_9:
+    Group: DmGroup_5
+    Permission: DmPermission_9
+  DmGroupPermission_3_10:
+    Group: DmGroup_3
+    Permission: DmPermission_10
+  DmGroupPermission_3_11:
+    Group: DmGroup_3
+    Permission: DmPermission_11
+  DmGroupPermission_3_12:
+    Group: DmGroup_3
+    Permission: DmPermission_12
+  DmGroupPermission_3_13:
+    Group: DmGroup_3
+    Permission: DmPermission_13
+  DmGroupPermission_3_14:
+    Group: DmGroup_3
+    Permission: DmPermission_14
+  DmGroupPermission_3_15:
+    Group: DmGroup_3
+    Permission: DmPermission_15
+  DmGroupPermission_6_16:
+    Group: DmGroup_6
+    Permission: DmPermission_16
+  DmGroupPermission_6_17:
+    Group: DmGroup_6
+    Permission: DmPermission_17
+  DmGroupPermission_6_18:
+    Group: DmGroup_6
+    Permission: DmPermission_18
+  DmGroupPermission_6_19:
+    Group: DmGroup_6
+    Permission: DmPermission_19
+  DmGroupPermission_6_20:
+    Group: DmGroup_6
+    Permission: DmPermission_20
+  DmGroupPermission_6_21:
+    Group: DmGroup_6
+    Permission: DmPermission_21
+  DmGroupPermission_6_22:
+    Group: DmGroup_6
+    Permission: DmPermission_22
+  DmGroupPermission_3_23:
+    Group: DmGroup_3
+    Permission: DmPermission_23
+  DmGroupPermission_3_24:
+    Group: DmGroup_3
+    Permission: DmPermission_24
+  DmGroupPermission_3_25:
+    Group: DmGroup_3
+    Permission: DmPermission_25
+  DmGroupPermission_2_26:
+    Group: DmGroup_2
+    Permission: DmPermission_26
+  DmGroupPermission_3_26:
+    Group: DmGroup_3
+    Permission: DmPermission_26
+  DmGroupPermission_4_26:
+    Group: DmGroup_4
+    Permission: DmPermission_26
+  DmGroupPermission_5_26:
+    Group: DmGroup_5
+    Permission: DmPermission_26
+  DmGroupPermission_3_27:
+    Group: DmGroup_3
+    Permission: DmPermission_27
+  DmGroupPermission_4_27:
+    Group: DmGroup_4
+    Permission: DmPermission_27
+  DmGroupPermission_5_27:
+    Group: DmGroup_5
+    Permission: DmPermission_27
+  DmGroupPermission_3_28:
+    Group: DmGroup_3
+    Permission: DmPermission_28
+  DmGroupPermission_2_30:
+    Group: DmGroup_2
+    Permission: DmPermission_30
+  DmGroupPermission_3_30:
+    Group: DmGroup_3
+    Permission: DmPermission_30
+  DmGroupPermission_4_30:
+    Group: DmGroup_4
+    Permission: DmPermission_30
+  DmGroupPermission_5_30:
+    Group: DmGroup_5
+    Permission: DmPermission_30
+  DmGroupPermission_2_31:
+    Group: DmGroup_2
+    Permission: DmPermission_31
+  DmGroupPermission_3_31:
+    Group: DmGroup_3
+    Permission: DmPermission_31
+  DmGroupPermission_4_31:
+    Group: DmGroup_4
+    Permission: DmPermission_31
+  DmGroupPermission_3_32:
+    Group: DmGroup_3
+    Permission: DmPermission_32
+  DmGroupPermission_4_32:
+    Group: DmGroup_4
+    Permission: DmPermission_32
+  DmGroupPermission_2_33:
+    Group: DmGroup_2
+    Permission: DmPermission_33
+  DmGroupPermission_3_33:
+    Group: DmGroup_3
+    Permission: DmPermission_33
+  DmGroupPermission_4_33:
+    Group: DmGroup_4
+    Permission: DmPermission_33
+  DmGroupPermission_2_34:
+    Group: DmGroup_2
+    Permission: DmPermission_34
+  DmGroupPermission_3_34:
+    Group: DmGroup_3
+    Permission: DmPermission_34
+  DmGroupPermission_4_34:
+    Group: DmGroup_4
+    Permission: DmPermission_34
+  DmGroupPermission_5_34:
+    Group: DmGroup_5
+    Permission: DmPermission_34
+  DmGroupPermission_3_35:
+    Group: DmGroup_3
+    Permission: DmPermission_35
+  DmGroupPermission_3_36:
+    Group: DmGroup_3
+    Permission: DmPermission_36
+  DmGroupPermission_2_37:
+    Group: DmGroup_2
+    Permission: DmPermission_37
+  DmGroupPermission_2_38:
+    Group: DmGroup_2
+    Permission: DmPermission_38
+  DmGroupPermission_2_39:
+    Group: DmGroup_2
+    Permission: DmPermission_39
+  DmGroupPermission_2_41:
+    Group: DmGroup_2
+    Permission: DmPermission_41
+  DmGroupPermission_2_42:
+    Group: DmGroup_2
+    Permission: DmPermission_42
+  DmGroupPermission_2_43:
+    Group: DmGroup_2
+    Permission: DmPermission_43
+  DmGroupPermission_2_44:
+    Group: DmGroup_2
+    Permission: DmPermission_44
+  DmGroupPermission_2_45:
+    Group: DmGroup_2
+    Permission: DmPermission_45
+  DmGroupPermission_4_47:
+    Group: DmGroup_4
+    Permission: DmPermission_47
+  DmGroupPermission_2_48:
+    Group: DmGroup_2
+    Permission: DmPermission_48
+  DmGroupPermission_3_48:
+    Group: DmGroup_3
+    Permission: DmPermission_48
+  DmGroupPermission_4_48:
+    Group: DmGroup_4
+    Permission: DmPermission_48
+  DmGroupPermission_5_48:
+    Group: DmGroup_5
+    Permission: DmPermission_48
+  DmGroupPermission_2_49:
+    Group: DmGroup_2
+    Permission: DmPermission_49
+  DmGroupPermission_3_49:
+    Group: DmGroup_3
+    Permission: DmPermission_49
+  DmGroupPermission_4_49:
+    Group: DmGroup_4
+    Permission: DmPermission_49
+  DmGroupPermission_5_49:
+    Group: DmGroup_5
+    Permission: DmPermission_49
+  DmGroupPermission_2_54:
+    Group: DmGroup_2
+    Permission: DmPermission_54
+  DmGroupPermission_3_54:
+    Group: DmGroup_3
+    Permission: DmPermission_54
+  DmGroupPermission_4_54:
+    Group: DmGroup_4
+    Permission: DmPermission_54
+  DmGroupPermission_3_55:
+    Group: DmGroup_3
+    Permission: DmPermission_55
+  DmGroupPermission_4_55:
+    Group: DmGroup_4
+    Permission: DmPermission_55
+  DmGroupPermission_3_56:
+    Group: DmGroup_3
+    Permission: DmPermission_56
+  DmGroupPermission_3_60:
+    Group: DmGroup_3
+    Permission: DmPermission_60
+DmPermission:
+  DmPermission_1:
+    name: system
+    description: 'System administrator'
+    created_at: '2011-04-01 15:42:10'
+    updated_at: '2011-04-01 15:42:10'
+  DmPermission_2:
+    name: admin
+    description: 'Log into administration'
+    created_at: '2011-04-01 15:42:10'
+    updated_at: '2011-04-01 15:42:10'
+  DmPermission_3:
+    name: clear_cache
+    description: 'Clear the cache'
+    created_at: '2011-04-01 15:42:10'
+    updated_at: '2011-04-01 15:42:10'
+  DmPermission_4:
+    name: log
+    description: 'Manage logs'
+    created_at: '2011-04-01 15:42:10'
+    updated_at: '2011-04-01 15:42:10'
+  DmPermission_5:
+    name: code_editor
+    description: 'Use admin and front code editors'
+    created_at: '2011-04-01 15:42:10'
+    updated_at: '2011-04-01 15:42:10'
+  DmPermission_6:
+    name: security_user
+    description: 'Manage security users'
+    created_at: '2011-04-01 15:42:10'
+    updated_at: '2011-04-01 15:42:10'
+  DmPermission_7:
+    name: security_permission
+    description: 'Manage security permissions'
+    created_at: '2011-04-01 15:42:10'
+    updated_at: '2011-04-01 15:42:10'
+  DmPermission_8:
+    name: security_group
+    description: 'Manage security groups'
+    created_at: '2011-04-01 15:42:10'
+    updated_at: '2011-04-01 15:42:10'
+  DmPermission_9:
+    name: content
+    description: 'CRUD dynamic content in admin'
+    created_at: '2011-04-01 15:42:10'
+    updated_at: '2011-04-01 15:42:10'
+  DmPermission_10:
+    name: zone_add
+    description: 'Add zones'
+    created_at: '2011-04-01 15:42:10'
+    updated_at: '2011-04-01 15:42:10'
+  DmPermission_11:
+    name: zone_edit
+    description: 'Edit zones'
+    created_at: '2011-04-01 15:42:10'
+    updated_at: '2011-04-01 15:42:10'
+  DmPermission_12:
+    name: zone_delete
+    description: 'Delete zones'
+    created_at: '2011-04-01 15:42:10'
+    updated_at: '2011-04-01 15:42:10'
+  DmPermission_13:
+    name: widget_add
+    description: 'Add widgets'
+    created_at: '2011-04-01 15:42:10'
+    updated_at: '2011-04-01 15:42:10'
+  DmPermission_14:
+    name: widget_edit
+    description: 'Edit widgets'
+    created_at: '2011-04-01 15:42:10'
+    updated_at: '2011-04-01 15:42:10'
+  DmPermission_15:
+    name: widget_delete
+    description: 'Delete widgets'
+    created_at: '2011-04-01 15:42:10'
+    updated_at: '2011-04-01 15:42:10'
+  DmPermission_16:
+    name: widget_edit_fast
+    description: 'Can fast edit widgets'
+    created_at: '2011-04-01 15:42:10'
+    updated_at: '2011-04-01 15:42:10'
+  DmPermission_17:
+    name: widget_edit_fast_record
+    description: 'Fast edit widget record'
+    created_at: '2011-04-01 15:42:10'
+    updated_at: '2011-04-01 15:42:10'
+  DmPermission_18:
+    name: widget_edit_fast_content_title
+    description: 'Fast edit widget content title'
+    created_at: '2011-04-01 15:42:10'
+    updated_at: '2011-04-01 15:42:10'
+  DmPermission_19:
+    name: widget_edit_fast_content_link
+    description: 'Fast edit widget content link'
+    created_at: '2011-04-01 15:42:10'
+    updated_at: '2011-04-01 15:42:10'
+  DmPermission_20:
+    name: widget_edit_fast_content_image
+    description: 'Fast edit widget content image'
+    created_at: '2011-04-01 15:42:10'
+    updated_at: '2011-04-01 15:42:10'
+  DmPermission_21:
+    name: widget_edit_fast_content_text
+    description: 'Fast edit widget content text'
+    created_at: '2011-04-01 15:42:10'
+    updated_at: '2011-04-01 15:42:10'
+  DmPermission_22:
+    name: widget_edit_fast_navigation_menu
+    description: 'Fast edit widget navigation menu'
+    created_at: '2011-04-01 15:42:10'
+    updated_at: '2011-04-01 15:42:10'
+  DmPermission_23:
+    name: page_add
+    description: 'Add pages'
+    created_at: '2011-04-01 15:42:10'
+    updated_at: '2011-04-01 15:42:10'
+  DmPermission_24:
+    name: page_edit
+    description: 'Edit pages'
+    created_at: '2011-04-01 15:42:10'
+    updated_at: '2011-04-01 15:42:10'
+  DmPermission_25:
+    name: page_delete
+    description: 'Delete pages'
+    created_at: '2011-04-01 15:42:10'
+    updated_at: '2011-04-01 15:42:10'
+  DmPermission_26:
+    name: page_bar_admin
+    description: 'See page bar in admin'
+    created_at: '2011-04-01 15:42:10'
+    updated_at: '2011-04-01 15:42:10'
+  DmPermission_27:
+    name: media_bar_admin
+    description: 'See media bar in admin'
+    created_at: '2011-04-01 15:42:10'
+    updated_at: '2011-04-01 15:42:10'
+  DmPermission_28:
+    name: media_library
+    description: 'Use media library in admin'
+    created_at: '2011-04-01 15:42:10'
+    updated_at: '2011-04-01 15:42:10'
+  DmPermission_29:
+    name: media_ignore_whitelist
+    description: 'Upload media with any filetype'
+    created_at: '2011-04-01 15:42:10'
+    updated_at: '2011-04-01 15:42:10'
+  DmPermission_30:
+    name: tool_bar_admin
+    description: 'See toolbar in admin'
+    created_at: '2011-04-01 15:42:10'
+    updated_at: '2011-04-01 15:42:10'
+  DmPermission_31:
+    name: page_bar_front
+    description: 'See page bar in front'
+    created_at: '2011-04-01 15:42:10'
+    updated_at: '2011-04-01 15:42:10'
+  DmPermission_32:
+    name: media_bar_front
+    description: 'See media bar in front'
+    created_at: '2011-04-01 15:42:10'
+    updated_at: '2011-04-01 15:42:10'
+  DmPermission_33:
+    name: tool_bar_front
+    description: 'See toolbar in front'
+    created_at: '2011-04-01 15:42:10'
+    updated_at: '2011-04-01 15:42:10'
+  DmPermission_34:
+    name: site_view
+    description: 'See non-public website and inactive pages'
+    created_at: '2011-04-01 15:42:10'
+    updated_at: '2011-04-01 15:42:10'
+  DmPermission_35:
+    name: loremize
+    description: 'Create automatic random content'
+    created_at: '2011-04-01 15:42:10'
+    updated_at: '2011-04-01 15:42:10'
+  DmPermission_36:
+    name: export_table
+    description: 'Export table contents'
+    created_at: '2011-04-01 15:42:10'
+    updated_at: '2011-04-01 15:42:10'
+  DmPermission_37:
+    name: sitemap
+    description: 'Regenerate sitemap'
+    created_at: '2011-04-01 15:42:10'
+    updated_at: '2011-04-01 15:42:10'
+  DmPermission_38:
+    name: automatic_metas
+    description: 'Configure automatic pages metas'
+    created_at: '2011-04-01 15:42:10'
+    updated_at: '2011-04-01 15:42:10'
+  DmPermission_39:
+    name: manual_metas
+    description: 'Configure manually pages metas'
+    created_at: '2011-04-01 15:42:10'
+    updated_at: '2011-04-01 15:42:10'
+  DmPermission_40:
+    name: manage_pages
+    description: 'Move and sort pages'
+    created_at: '2011-04-01 15:42:10'
+    updated_at: '2011-04-01 15:42:10'
+  DmPermission_41:
+    name: url_redirection
+    description: 'Configure url redirections'
+    created_at: '2011-04-01 15:42:10'
+    updated_at: '2011-04-01 15:42:10'
+  DmPermission_42:
+    name: use_google_analytics
+    description: 'Use google analytics'
+    created_at: '2011-04-01 15:42:10'
+    updated_at: '2011-04-01 15:42:10'
+  DmPermission_43:
+    name: google_analytics
+    description: 'Configure google analytics'
+    created_at: '2011-04-01 15:42:10'
+    updated_at: '2011-04-01 15:42:10'
+  DmPermission_44:
+    name: use_google_webmaster_tools
+    description: 'Use google webmaster tools'
+    created_at: '2011-04-01 15:42:10'
+    updated_at: '2011-04-01 15:42:10'
+  DmPermission_45:
+    name: google_webmaster_tools
+    description: 'Configure google webmaster tools'
+    created_at: '2011-04-01 15:42:10'
+    updated_at: '2011-04-01 15:42:10'
+  DmPermission_46:
+    name: xiti
+    description: 'Configure Xiti'
+    created_at: '2011-04-01 15:42:10'
+    updated_at: '2011-04-01 15:42:10'
+  DmPermission_47:
+    name: search_engine
+    description: 'Manage internal search engine'
+    created_at: '2011-04-01 15:42:10'
+    updated_at: '2011-04-01 15:42:10'
+  DmPermission_48:
+    name: see_log
+    description: 'See the logs'
+    created_at: '2011-04-01 15:42:10'
+    updated_at: '2011-04-01 15:42:10'
+  DmPermission_49:
+    name: see_chart
+    description: 'See the charts'
+    created_at: '2011-04-01 15:42:10'
+    updated_at: '2011-04-01 15:42:10'
+  DmPermission_50:
+    name: see_diagrams
+    description: 'See the developer diagrams'
+    created_at: '2011-04-01 15:42:10'
+    updated_at: '2011-04-01 15:42:10'
+  DmPermission_51:
+    name: see_server
+    description: 'See the server infos'
+    created_at: '2011-04-01 15:42:10'
+    updated_at: '2011-04-01 15:42:10'
+  DmPermission_52:
+    name: see_request
+    description: 'See the requests window'
+    created_at: '2011-04-01 15:42:10'
+    updated_at: '2011-04-01 15:42:10'
+  DmPermission_53:
+    name: see_event
+    description: 'See the events window'
+    created_at: '2011-04-01 15:42:10'
+    updated_at: '2011-04-01 15:42:10'
+  DmPermission_54:
+    name: config_panel
+    description: 'Use the configuration panel'
+    created_at: '2011-04-01 15:42:10'
+    updated_at: '2011-04-01 15:42:10'
+  DmPermission_55:
+    name: translation
+    description: 'Use the translation interface'
+    created_at: '2011-04-01 15:42:10'
+    updated_at: '2011-04-01 15:42:10'
+  DmPermission_56:
+    name: layout
+    description: 'Use the layout interface'
+    created_at: '2011-04-01 15:42:10'
+    updated_at: '2011-04-01 15:42:10'
+  DmPermission_57:
+    name: sent_mail
+    description: 'See mails sent by server'
+    created_at: '2011-04-01 15:42:10'
+    updated_at: '2011-04-01 15:42:10'
+  DmPermission_58:
+    name: mail_template
+    description: 'Configure mail templates'
+    created_at: '2011-04-01 15:42:10'
+    updated_at: '2011-04-01 15:42:10'
+  DmPermission_59:
+    name: error_log
+    description: 'See error log'
+    created_at: '2011-04-01 15:42:10'
+    updated_at: '2011-04-01 15:42:10'
+  DmPermission_60:
+    name: interface_settings
+    description: 'Manage interface settings like default image resize method'
+    created_at: '2011-04-01 15:42:10'
+    updated_at: '2011-04-01 15:42:10'
+OrderDetail:
+  OrderDetail_1:
+    Product: Product_1
+    Order: Order_1
+    quantity: '4'
+    price: '999.00'
+  OrderDetail_2:
+    Product: Product_1
+    Order: Order_2
+    quantity: '4'
+    price: '999.00'
+  OrderDetail_3:
+    Product: Product_1
+    Order: Order_3
+    quantity: '4'
+    price: '999.00'
+  OrderDetail_4:
+    Product: Product_1
+    Order: Order_4
+    quantity: '4'
+    price: '999.00'
+  OrderDetail_5:
+    Product: Product_1
+    Order: Order_5
+    quantity: '4'
+    price: '999.00'
+  OrderDetail_6:
+    Product: Product_2
+    Order: Order_6
+    quantity: '1'
+    price: '0.00'
+  OrderDetail_7:
+    Product: Product_1
+    Order: Order_6
+    quantity: '2'
+    price: '999.00'
+DmPageView:
+  DmPageView_1:
+    module: main
+    action: root
+    Layout: DmLayout_1
+  DmPageView_2:
+    module: main
+    action: error404
+    Layout: DmLayout_1
+  DmPageView_3:
+    module: main
+    action: signin
+    Layout: DmLayout_1
+  DmPageView_4:
+    module: category
+    action: list
+    Layout: DmLayout_1
+  DmPageView_5:
+    module: category
+    action: show
+    Layout: DmLayout_1
+  DmPageView_6:
+    module: product
+    action: show
+    Layout: DmLayout_1
+  DmPageView_7:
+    module: main
+    action: showCart
+    Layout: DmLayout_1
+  DmPageView_8:
+    module: main
+    action: order
+    Layout: DmLayout_1
+  DmPageView_9:
+    module: main
+    action: ordershow
+    Layout: DmLayout_1
+DmMailTemplate:
+  DmMailTemplate_1:
+    name: dm_user_forgot_password
+    vars: 'username, email, step2_url'
+    created_at: '2011-04-01 15:42:14'
+    updated_at: '2011-04-01 15:42:14'
+DmZone:
+  DmZone_1:
+    Area: DmArea_1
+    css_class: null
+    width: null
+    position: '-1'
+  DmZone_2:
+    Area: DmArea_2
+    css_class: null
+    width: null
+    position: '-2'
+  DmZone_3:
+    Area: DmArea_3
+    css_class: null
+    width: null
+    position: '-3'
+  DmZone_4:
+    Area: DmArea_4
+    css_class: null
+    width: null
+    position: '-4'
+  DmZone_5:
+    Area: DmArea_5
+    css_class: null
+    width: null
+    position: '-5'
+  DmZone_6:
+    Area: DmArea_6
+    css_class: null
+    width: null
+    position: '-6'
+  DmZone_7:
+    Area: DmArea_7
+    css_class: null
+    width: null
+    position: '-7'
+  DmZone_8:
+    Area: DmArea_8
+    css_class: null
+    width: null
+    position: '-8'
+  DmZone_9:
+    Area: DmArea_9
+    css_class: null
+    width: null
+    position: '-9'
+  DmZone_10:
+    Area: DmArea_10
+    css_class: null
+    width: null
+    position: '-10'
+  DmZone_11:
+    Area: DmArea_11
+    css_class: null
+    width: null
+    position: '-11'
+  DmZone_12:
+    Area: DmArea_12
+    css_class: null
+    width: null
+    position: '-12'
+DmSetting:
+  DmSetting_1:
+    name: site_name
+    type: text
+    params: null
+    group_name: site
+    credentials: null
+  DmSetting_2:
+    name: site_active
+    type: boolean
+    params: null
+    group_name: site
+    credentials: null
+  DmSetting_3:
+    name: site_indexable
+    type: boolean
+    params: null
+    group_name: site
+    credentials: null
+  DmSetting_4:
+    name: site_working_copy
+    type: boolean
+    params: null
+    group_name: site
+    credentials: null
+  DmSetting_5:
+    name: ga_key
+    type: text
+    params: null
+    group_name: tracking
+    credentials: google_analytics
+  DmSetting_6:
+    name: ga_token
+    type: text
+    params: null
+    group_name: internal
+    credentials: google_analytics
+  DmSetting_7:
+    name: gwt_key
+    type: text
+    params: null
+    group_name: tracking
+    credentials: google_webmaster_tools
+  DmSetting_8:
+    name: xiti_code
+    type: textarea
+    params: null
+    group_name: tracking
+    credentials: xiti
+  DmSetting_9:
+    name: search_stop_words
+    type: textarea
+    params: null
+    group_name: 'search engine'
+    credentials: search_engine
+  DmSetting_10:
+    name: base_urls
+    type: textarea
+    params: null
+    group_name: internal
+    credentials: system
+  DmSetting_11:
+    name: image_resize_method
+    type: select
+    params: 'fit=Fit scale=Scale inflate=Inflate top=Top right=Right left=Left bottom=Bottom center=Center'
+    group_name: interface
+    credentials: interface_settings
+  DmSetting_12:
+    name: image_resize_quality
+    type: number
+    params: null
+    group_name: interface
+    credentials: interface_settings
+  DmSetting_13:
+    name: link_external_blank
+    type: boolean
+    params: null
+    group_name: interface
+    credentials: interface_settings
+  DmSetting_14:
+    name: link_current_span
+    type: boolean
+    params: null
+    group_name: interface
+    credentials: interface_settings
+  DmSetting_15:
+    name: link_use_page_title
+    type: boolean
+    params: null
+    group_name: interface
+    credentials: interface_settings
+  DmSetting_16:
+    name: title_prefix
+    type: text
+    params: null
+    group_name: seo
+    credentials: manual_metas
+  DmSetting_17:
+    name: title_suffix
+    type: text
+    params: null
+    group_name: seo
+    credentials: manual_metas
+  DmSetting_18:
+    name: smart_404
+    type: boolean
+    params: null
+    group_name: seo
+    credentials: url_redirection
+  DmSetting_19:
+    name: orderEmail
+    type: text
+    params: ''
+    group_name: ''
+    credentials: ''
+  DmSetting_20:
+    name: companyName
+    type: text
+    params: ''
+    group_name: ''
+    credentials: ''
+  DmSetting_21:
+    name: companyPhone
+    type: text
+    params: ''
+    group_name: ''
+    credentials: ''
+  DmSetting_22:
+    name: siteUrl
+    type: text
+    params: ''
+    group_name: ''
+    credentials: ''
+  DmSetting_23:
+    name: siteName
+    type: text
+    params: ''
+    group_name: ''
+    credentials: ''
+DmAutoSeo:
+  DmAutoSeo_1:
+    module: category
+    action: show
+    created_at: '2011-04-01 15:56:42'
+    updated_at: '2011-04-01 15:56:42'
+  DmAutoSeo_2:
+    module: product
+    action: show
+    created_at: '2011-04-01 15:56:43'
+    updated_at: '2011-04-01 15:56:43'
+DmMedia:
+  DmMedia_1:
+    Folder: DmMediaFolder_3
+    file: images2.jpeg
+    mime: image/jpeg
+    size: '35261'
+    dimensions: 800x400
+    created_at: '2011-04-01 15:56:42'
+    updated_at: '2011-04-01 15:56:42'
+  DmMedia_2:
+    Folder: DmMediaFolder_4
+    file: tosh.jpg
+    mime: image/jpeg
+    size: '135602'
+    dimensions: 450x379
+    created_at: '2011-04-01 15:57:41'
+    updated_at: '2011-04-01 16:11:15'
+  DmMedia_3:
+    Folder: DmMediaFolder_4
+    file: 3_asusk50k50ip90n0ca110w2832rd13ay.jpg
+    mime: image/jpeg
+    size: '38287'
+    dimensions: 418x350
+    created_at: '2011-04-01 17:10:59'
+    updated_at: '2011-04-01 17:11:46'
+DmPage:
+  DmPage_1:
+    module: main
+    action: root
+    record_id: '0'
+    credentials: null
+    lft: '1'
+    rgt: '20'
+    level: '0'
+  DmPage_2:
+    module: main
+    action: error404
+    record_id: '0'
+    credentials: null
+    lft: '4'
+    rgt: '5'
+    level: '1'
+  DmPage_3:
+    module: main
+    action: signin
+    record_id: '0'
+    credentials: null
+    lft: '2'
+    rgt: '3'
+    level: '1'
+  DmPage_4:
+    module: category
+    action: list
+    record_id: '0'
+    credentials: null
+    lft: '6'
+    rgt: '13'
+    level: '1'
+  DmPage_5:
+    module: category
+    action: show
+    record_id: '1'
+    credentials: null
+    lft: '7'
+    rgt: '12'
+    level: '2'
+  DmPage_6:
+    module: product
+    action: show
+    record_id: '1'
+    credentials: null
+    lft: '8'
+    rgt: '9'
+    level: '3'
+  DmPage_7:
+    module: main
+    action: showCart
+    record_id: '0'
+    credentials: null
+    lft: '14'
+    rgt: '15'
+    level: '1'
+  DmPage_8:
+    module: product
+    action: show
+    record_id: '2'
+    credentials: null
+    lft: '10'
+    rgt: '11'
+    level: '3'
+  DmPage_9:
+    module: main
+    action: order
+    record_id: '0'
+    credentials: null
+    lft: '16'
+    rgt: '17'
+    level: '1'
+  DmPage_10:
+    module: main
+    action: ordershow
+    record_id: '0'
+    credentials: null
+    lft: '18'
+    rgt: '19'
+    level: '1'
+DmArea:
+  DmArea_1:
+    PageView: DmPageView_2
+    type: '1'
+  DmArea_2:
+    PageView: DmPageView_3
+    type: '1'
+  DmArea_3:
+    Layout: DmLayout_1
+    type: top
+  DmArea_4:
+    Layout: DmLayout_1
+    type: left
+  DmArea_5:
+    PageView: DmPageView_1
+    type: content
+  DmArea_6:
+    Layout: DmLayout_1
+    type: right
+  DmArea_7:
+    Layout: DmLayout_1
+    type: bottom
+  DmArea_8:
+    PageView: DmPageView_6
+    type: content
+  DmArea_9:
+    PageView: DmPageView_7
+    type: content
+  DmArea_10:
+    PageView: DmPageView_5
+    type: content
+  DmArea_11:
+    PageView: DmPageView_8
+    type: content
+  DmArea_12:
+    PageView: DmPageView_9
+    type: content
+DmLayout:
+  DmLayout_1:
+    name: Global
+    template: page
+    css_class: null
+DmError:
+  DmError_1:
+    php_class: sfError404Exception
+    name: 'Missing widget list'
+    description: "Missing widget list\n#0 /home/diem/dmFrontPlugin/modules/dmWidget/lib/BasedmWidgetActions.class.php(249): sfAction->forward404Unless(NULL, 'Missing widget ...')\n#1 /home/diem/symfony/lib/action/sfActions.class.php(60): BasedmWidgetActions->executeSort(Object(dmWebRequest))\n#2 /home/diem/symfony/lib/filter/sfExecutionFilter.class.php(92): sfActions->execute(Object(dmWebRequest))\n#3 /home/diem/symfony/lib/filter/sfExecutionFilter.class.php(78): sfExecutionFilter->executeAction(Object(dmWidgetActions))\n#4 /home/diem/symfony/lib/filter/sfExecutionFilter.class.php(42): sfExecutionFilter->handleAction(Object(sfFilterChain), Object(dmWidgetActions))\n#5 /home/diem/symfony/lib/filter/sfFilterChain.class.php(53): sfExecutionFilter->execute(Object(sfFilterChain))\n#6 /home/diem/dmFrontPlugin/lib/filter/dmFrontInitFilter.php(34): sfFilterChain->execute()\n#7 /home/diem/symfony/lib/filter/sfFilterChain.class.php(53): dmFrontInitFilter->execute(Object(sfFilterChain))\n#8 /home/diem/symfony/lib/filter/sfBasicSecurityFilter.class.php(72): sfFilterChain->execute()\n#9 /home/diem/symfony/lib/filter/sfFilterChain.class.php(53): sfBasicSecurityFilter->execute(Object(sfFilterChain))\n#10 /home/diem/dmCorePlugin/plugins/dmUserPlugin/lib/dmRememberMeFilter.class.php(56): sfFilterChain->execute()\n#11 /home/diem/symfony/lib/filter/sfFilterChain.class.php(53): dmRememberMeFilter->execute(Object(sfFilterChain))\n#12 /home/diem/symfony/lib/filter/sfRenderingFilter.class.php(33): sfFilterChain->execute()\n#13 /home/diem/symfony/lib/filter/sfFilterChain.class.php(53): sfRenderingFilter->execute(Object(sfFilterChain))\n#14 /home/diem/symfony/lib/controller/sfController.class.php(238): sfFilterChain->execute()\n#15 /home/diem/symfony/lib/controller/sfFrontWebController.class.php(48): sfController->forward('dmWidget', 'sort')\n#16 /home/diem/dmCorePlugin/lib/context/dmContext.php(290): sfFrontWebController->dispatch()\n#17 /var/www/dmshop/web/dev.php(7): dmContext->dispatch()\n#18 {main}"
+    module: dmWidget
+    action: sort
+    uri: 'http://localhost/dmshop/web/dev.php/+/dmWidget/sort?dm_zone=6&&_=1301659361420&dm_cpi=1&dm_xhr=1'
+    env: dev
+    created_at: '2011-04-01 16:02:41'
+  DmError_2:
+    php_class: dmException
+    name: 'product/viewCart is not a valid link resource'
+    description: "product/viewCart is not a valid link resource\n#0 /home/diem/dmFrontPlugin/lib/view/html/link/dmFrontLinkTagFactory.php(12): dmFrontLinkResource->initialize('product/viewCar...')\n#1 /home/diem/dmCorePlugin/lib/view/dmHelper.php(91): dmFrontLinkTagFactory->buildLink('product/viewCar...')\n#2 /home/diem/dmCorePlugin/lib/helper/DmHelper.php(13): dmHelper->link('product/viewCar...')\n#3 /var/www/dmshop/apps/front/modules/product/templates/_shortCart.php(6): _link('product/viewCar...')\n#4 /home/diem/symfony/lib/view/sfPHPView.class.php(75): require('/var/www/dmshop...')\n#5 /home/diem/symfony/lib/view/sfPartialView.class.php(110): sfPHPView->renderFile('/var/www/dmshop...')\n#6 /home/diem/symfony/lib/helper/PartialHelper.php(155): sfPartialView->render()\n#7 /home/diem/dmCorePlugin/lib/view/dmHelper.php(56): get_component('product', 'shortCart', Array)\n#8 /home/diem/dmFrontPlugin/lib/dmWidget/base/dmWidgetBaseView.php(150): dmHelper->renderComponent('product', 'shortCart', Array)\n#9 /home/diem/dmFrontPlugin/lib/dmWidget/base/dmWidgetBaseView.php(141): dmWidgetBaseView->doRenderPartial(Array)\n#10 /home/diem/dmFrontPlugin/lib/dmWidget/base/dmWidgetBaseView.php(120): dmWidgetBaseView->renderPartial(Array)\n#11 /home/diem/dmFrontPlugin/lib/dmWidget/base/dmWidgetBaseView.php(108): dmWidgetBaseView->doRender()\n#12 /home/diem/dmFrontPlugin/lib/view/html/widget/dmFrontWidgetRenderer.php(71): dmWidgetBaseView->render()\n#13 /home/diem/dmFrontPlugin/lib/view/html/widget/dmFrontWidgetRenderer.php(43): dmFrontWidgetRenderer->doRender()\n#14 /home/diem/dmFrontPlugin/lib/view/html/page/dmFrontPageBaseHelper.php(373): dmFrontWidgetRenderer->getHtml()\n#15 /home/diem/dmFrontPlugin/lib/view/html/page/dmFrontPageEditHelper.php(129): dmFrontPageBaseHelper->renderWidgetInner(Array)\n#16 /home/diem/dmFrontPlugin/lib/view/html/page/dmFrontPageBaseHelper.php(326): dmFrontPageEditHelper->renderWidget(Array)\n#17 /home/diem/dmFrontPlugin/lib/view/html/page/dmFrontPageEditHelper.php(36): dmFrontPageBaseHelper->renderZoneInner(Array)\n#18 /home/diem/dmFrontPlugin/lib/view/html/page/dmFrontPageBaseHelper.php(269): dmFrontPageEditHelper->renderZone(Array)\n#19 /home/diem/dmFrontPlugin/lib/view/html/page/dmFrontPageBaseHelper.php(244): dmFrontPageBaseHelper->renderAreaInner(Array)\n#20 /var/www/dmshop/apps/front/modules/dmFront/templates/pageSuccess.php(24): dmFrontPageBaseHelper->renderArea('layout.right')\n#21 /home/diem/symfony/lib/view/sfPHPView.class.php(75): require('/var/www/dmshop...')\n#22 /home/diem/symfony/lib/view/sfPHPView.class.php(185): sfPHPView->renderFile('/var/www/dmshop...')\n#23 /home/diem/symfony/lib/filter/sfExecutionFilter.class.php(155): sfPHPView->render()\n#24 /home/diem/symfony/lib/filter/sfExecutionFilter.class.php(116): sfExecutionFilter->executeView('dmFront', 'page', 'Success', Array)\n#25 /home/diem/symfony/lib/filter/sfExecutionFilter.class.php(47): sfExecutionFilter->handleView(Object(sfFilterChain), Object(dmFrontActions), 'Success')\n#26 /home/diem/symfony/lib/filter/sfFilterChain.class.php(53): sfExecutionFilter->execute(Object(sfFilterChain))\n#27 /home/diem/dmFrontPlugin/lib/filter/dmFrontInitFilter.php(34): sfFilterChain->execute()\n#28 /home/diem/symfony/lib/filter/sfFilterChain.class.php(53): dmFrontInitFilter->execute(Object(sfFilterChain))\n#29 /home/diem/dmCorePlugin/plugins/dmUserPlugin/lib/dmRememberMeFilter.class.php(56): sfFilterChain->execute()\n#30 /home/diem/symfony/lib/filter/sfFilterChain.class.php(53): dmRememberMeFilter->execute(Object(sfFilterChain))\n#31 /home/diem/symfony/lib/filter/sfRenderingFilter.class.php(33): sfFilterChain->execute()\n#32 /home/diem/symfony/lib/filter/sfFilterChain.class.php(53): sfRenderingFilter->execute(Object(sfFilterChain))\n#33 /home/diem/symfony/lib/controller/sfController.class.php(238): sfFilterChain->execute()\n#34 /home/diem/symfony/lib/controller/sfFrontWebController.class.php(48): sfController->forward('dmFront', 'page')\n#35 /home/diem/dmCorePlugin/lib/context/dmContext.php(290): sfFrontWebController->dispatch()\n#36 /var/www/dmshop/web/dev.php(7): dmContext->dispatch()\n#37 {main}"
+    module: dmFront
+    action: page
+    uri: 'http://localhost/dmshop/web/dev.php?dm_debug=1'
+    env: dev
+    created_at: '2011-04-01 16:29:16'
+  DmError_3:
+    php_class: InvalidArgumentException
+    name: 'Cannot redirect to an empty URL.'
+    description: "Cannot redirect to an empty URL.\n#0 /home/diem/dmCorePlugin/lib/controller/dmFrontWebController.php(12): sfWebController->redirect(NULL, 0, 302)\n#1 /home/diem/symfony/lib/action/sfAction.class.php(202): dmFrontWebController->redirect(NULL, 0, 302)\n#2 /var/www/dmshop/apps/front/modules/product/actions/actions.class.php(48): sfAction->redirect(NULL)\n#3 /home/diem/symfony/lib/action/sfActions.class.php(60): productActions->executeRecalc_cart(Object(dmWebRequest))\n#4 /home/diem/symfony/lib/filter/sfExecutionFilter.class.php(92): sfActions->execute(Object(dmWebRequest))\n#5 /home/diem/symfony/lib/filter/sfExecutionFilter.class.php(78): sfExecutionFilter->executeAction(Object(productActions))\n#6 /home/diem/symfony/lib/filter/sfExecutionFilter.class.php(42): sfExecutionFilter->handleAction(Object(sfFilterChain), Object(productActions))\n#7 /home/diem/symfony/lib/filter/sfFilterChain.class.php(53): sfExecutionFilter->execute(Object(sfFilterChain))\n#8 /home/diem/dmFrontPlugin/lib/filter/dmFrontInitFilter.php(34): sfFilterChain->execute()\n#9 /home/diem/symfony/lib/filter/sfFilterChain.class.php(53): dmFrontInitFilter->execute(Object(sfFilterChain))\n#10 /home/diem/dmCorePlugin/plugins/dmUserPlugin/lib/dmRememberMeFilter.class.php(56): sfFilterChain->execute()\n#11 /home/diem/symfony/lib/filter/sfFilterChain.class.php(53): dmRememberMeFilter->execute(Object(sfFilterChain))\n#12 /home/diem/symfony/lib/filter/sfRenderingFilter.class.php(33): sfFilterChain->execute()\n#13 /home/diem/symfony/lib/filter/sfFilterChain.class.php(53): sfRenderingFilter->execute(Object(sfFilterChain))\n#14 /home/diem/symfony/lib/controller/sfController.class.php(238): sfFilterChain->execute()\n#15 /home/diem/symfony/lib/controller/sfFrontWebController.class.php(48): sfController->forward('product', 'recalc_cart')\n#16 /home/diem/dmCorePlugin/lib/context/dmContext.php(290): sfFrontWebController->dispatch()\n#17 /var/www/dmshop/web/dev.php(7): dmContext->dispatch()\n#18 {main}"
+    module: product
+    action: recalc_cart
+    uri: 'http://localhost/dmshop/web/dev.php/+/product/recalc_cart'
+    env: dev
+    created_at: '2011-04-01 19:02:17'
+  DmError_4:
+    php_class: dmException
+    name: 'There is no setting called "orderEmail". Available settings are : base_urls, ga_key, ga_token, gwt_key, image_resize_method, image_resize_quality, link_current_span, link_external_blank, link_use_page_title, search_stop_words, site_active, site_indexable,'
+    description: "There is no setting called \"orderEmail\". Available settings are : base_urls, ga_key, ga_token, gwt_key, image_resize_method, image_resize_quality, link_current_span, link_external_blank, link_use_page_title, search_stop_words, site_active, site_indexable, site_name, site_working_copy, smart_404, title_prefix, title_suffix, xiti_code\n#0 /var/www/dmshop/apps/front/modules/order/actions/actions.class.php(38): dmConfig::get('orderEmail')\n#1 /home/diem/dmFrontPlugin/modules/dmFront/lib/BasedmFrontActions.class.php(180): orderActions->executeFormWidget(Object(dmWebRequest))\n#2 /home/diem/dmFrontPlugin/modules/dmFront/lib/BasedmFrontActions.class.php(126): BasedmFrontActions->launchDirectActions()\n#3 /home/diem/dmFrontPlugin/modules/dmFront/lib/BasedmFrontActions.class.php(12): BasedmFrontActions->renderPage()\n#4 /home/diem/symfony/lib/action/sfActions.class.php(60): BasedmFrontActions->executePage(Object(dmWebRequest))\n#5 /home/diem/symfony/lib/filter/sfExecutionFilter.class.php(92): sfActions->execute(Object(dmWebRequest))\n#6 /home/diem/symfony/lib/filter/sfExecutionFilter.class.php(78): sfExecutionFilter->executeAction(Object(dmFrontActions))\n#7 /home/diem/symfony/lib/filter/sfExecutionFilter.class.php(42): sfExecutionFilter->handleAction(Object(sfFilterChain), Object(dmFrontActions))\n#8 /home/diem/symfony/lib/filter/sfFilterChain.class.php(53): sfExecutionFilter->execute(Object(sfFilterChain))\n#9 /home/diem/dmFrontPlugin/lib/filter/dmFrontInitFilter.php(34): sfFilterChain->execute()\n#10 /home/diem/symfony/lib/filter/sfFilterChain.class.php(53): dmFrontInitFilter->execute(Object(sfFilterChain))\n#11 /home/diem/dmCorePlugin/plugins/dmUserPlugin/lib/dmRememberMeFilter.class.php(56): sfFilterChain->execute()\n#12 /home/diem/symfony/lib/filter/sfFilterChain.class.php(53): dmRememberMeFilter->execute(Object(sfFilterChain))\n#13 /home/diem/symfony/lib/filter/sfRenderingFilter.class.php(33): sfFilterChain->execute()\n#14 /home/diem/symfony/lib/filter/sfFilterChain.class.php(53): sfRenderingFilter->execute(Object(sfFilterChain))\n#15 /home/diem/symfony/lib/controller/sfController.class.php(238): sfFilterChain->execute()\n#16 /home/diem/symfony/lib/controller/sfFrontWebController.class.php(48): sfController->forward('dmFront', 'page')\n#17 /home/diem/dmCorePlugin/lib/context/dmContext.php(290): sfFrontWebController->dispatch()\n#18 /var/www/dmshop/web/dev.php(7): dmContext->dispatch()\n#19 {main}"
+    module: dmFront
+    action: page
+    uri: 'http://localhost/dmshop/web/dev.php/order'
+    env: dev
+    created_at: '2011-04-01 19:35:07'
+  DmError_5:
+    php_class: dmException
+    name: 'There is no setting called "orderEmail". Available settings are : base_urls, ga_key, ga_token, gwt_key, image_resize_method, image_resize_quality, link_current_span, link_external_blank, link_use_page_title, search_stop_words, site_active, site_indexable,'
+    description: "There is no setting called \"orderEmail\". Available settings are : base_urls, ga_key, ga_token, gwt_key, image_resize_method, image_resize_quality, link_current_span, link_external_blank, link_use_page_title, search_stop_words, site_active, site_indexable, site_name, site_working_copy, smart_404, title_prefix, title_suffix, xiti_code\n#0 /var/www/dmshop/apps/front/modules/order/actions/actions.class.php(38): dmConfig::get('orderEmail', 'noreply@site.na...')\n#1 /home/diem/dmFrontPlugin/modules/dmFront/lib/BasedmFrontActions.class.php(180): orderActions->executeFormWidget(Object(dmWebRequest))\n#2 /home/diem/dmFrontPlugin/modules/dmFront/lib/BasedmFrontActions.class.php(126): BasedmFrontActions->launchDirectActions()\n#3 /home/diem/dmFrontPlugin/modules/dmFront/lib/BasedmFrontActions.class.php(12): BasedmFrontActions->renderPage()\n#4 /home/diem/symfony/lib/action/sfActions.class.php(60): BasedmFrontActions->executePage(Object(dmWebRequest))\n#5 /home/diem/symfony/lib/filter/sfExecutionFilter.class.php(92): sfActions->execute(Object(dmWebRequest))\n#6 /home/diem/symfony/lib/filter/sfExecutionFilter.class.php(78): sfExecutionFilter->executeAction(Object(dmFrontActions))\n#7 /home/diem/symfony/lib/filter/sfExecutionFilter.class.php(42): sfExecutionFilter->handleAction(Object(sfFilterChain), Object(dmFrontActions))\n#8 /home/diem/symfony/lib/filter/sfFilterChain.class.php(53): sfExecutionFilter->execute(Object(sfFilterChain))\n#9 /home/diem/dmFrontPlugin/lib/filter/dmFrontInitFilter.php(34): sfFilterChain->execute()\n#10 /home/diem/symfony/lib/filter/sfFilterChain.class.php(53): dmFrontInitFilter->execute(Object(sfFilterChain))\n#11 /home/diem/dmCorePlugin/plugins/dmUserPlugin/lib/dmRememberMeFilter.class.php(56): sfFilterChain->execute()\n#12 /home/diem/symfony/lib/filter/sfFilterChain.class.php(53): dmRememberMeFilter->execute(Object(sfFilterChain))\n#13 /home/diem/symfony/lib/filter/sfRenderingFilter.class.php(33): sfFilterChain->execute()\n#14 /home/diem/symfony/lib/filter/sfFilterChain.class.php(53): sfRenderingFilter->execute(Object(sfFilterChain))\n#15 /home/diem/symfony/lib/controller/sfController.class.php(238): sfFilterChain->execute()\n#16 /home/diem/symfony/lib/controller/sfFrontWebController.class.php(48): sfController->forward('dmFront', 'page')\n#17 /home/diem/dmCorePlugin/lib/context/dmContext.php(290): sfFrontWebController->dispatch()\n#18 /var/www/dmshop/web/dev.php(7): dmContext->dispatch()\n#19 {main}"
+    module: dmFront
+    action: page
+    uri: 'http://localhost/dmshop/web/dev.php/order'
+    env: dev
+    created_at: '2011-04-01 19:37:08'
+  DmError_6:
+    php_class: dmException
+    name: 'There is no setting called "orderEmail". Available settings are : base_urls, ga_key, ga_token, gwt_key, image_resize_method, image_resize_quality, link_current_span, link_external_blank, link_use_page_title, search_stop_words, site_active, site_indexable,'
+    description: "There is no setting called \"orderEmail\". Available settings are : base_urls, ga_key, ga_token, gwt_key, image_resize_method, image_resize_quality, link_current_span, link_external_blank, link_use_page_title, search_stop_words, site_active, site_indexable, site_name, site_working_copy, smart_404, title_prefix, title_suffix, xiti_code\n#0 /var/www/dmshop/apps/front/modules/order/actions/actions.class.php(39): dmConfig::get('orderEmail')\n#1 /home/diem/dmFrontPlugin/modules/dmFront/lib/BasedmFrontActions.class.php(180): orderActions->executeFormWidget(Object(dmWebRequest))\n#2 /home/diem/dmFrontPlugin/modules/dmFront/lib/BasedmFrontActions.class.php(126): BasedmFrontActions->launchDirectActions()\n#3 /home/diem/dmFrontPlugin/modules/dmFront/lib/BasedmFrontActions.class.php(12): BasedmFrontActions->renderPage()\n#4 /home/diem/symfony/lib/action/sfActions.class.php(60): BasedmFrontActions->executePage(Object(dmWebRequest))\n#5 /home/diem/symfony/lib/filter/sfExecutionFilter.class.php(92): sfActions->execute(Object(dmWebRequest))\n#6 /home/diem/symfony/lib/filter/sfExecutionFilter.class.php(78): sfExecutionFilter->executeAction(Object(dmFrontActions))\n#7 /home/diem/symfony/lib/filter/sfExecutionFilter.class.php(42): sfExecutionFilter->handleAction(Object(sfFilterChain), Object(dmFrontActions))\n#8 /home/diem/symfony/lib/filter/sfFilterChain.class.php(53): sfExecutionFilter->execute(Object(sfFilterChain))\n#9 /home/diem/dmFrontPlugin/lib/filter/dmFrontInitFilter.php(34): sfFilterChain->execute()\n#10 /home/diem/symfony/lib/filter/sfFilterChain.class.php(53): dmFrontInitFilter->execute(Object(sfFilterChain))\n#11 /home/diem/dmCorePlugin/plugins/dmUserPlugin/lib/dmRememberMeFilter.class.php(56): sfFilterChain->execute()\n#12 /home/diem/symfony/lib/filter/sfFilterChain.class.php(53): dmRememberMeFilter->execute(Object(sfFilterChain))\n#13 /home/diem/symfony/lib/filter/sfRenderingFilter.class.php(33): sfFilterChain->execute()\n#14 /home/diem/symfony/lib/filter/sfFilterChain.class.php(53): sfRenderingFilter->execute(Object(sfFilterChain))\n#15 /home/diem/symfony/lib/controller/sfController.class.php(238): sfFilterChain->execute()\n#16 /home/diem/symfony/lib/controller/sfFrontWebController.class.php(48): sfController->forward('dmFront', 'page')\n#17 /home/diem/dmCorePlugin/lib/context/dmContext.php(290): sfFrontWebController->dispatch()\n#18 /var/www/dmshop/web/dev.php(7): dmContext->dispatch()\n#19 {main}"
+    module: dmFront
+    action: page
+    uri: 'http://localhost/dmshop/web/dev.php/order'
+    env: dev
+    created_at: '2011-04-01 19:39:47'
+  DmError_7:
+    php_class: Swift_TransportException
+    name: 'Connection could not be established with host localhost [Connection refused #111]'
+    description: "Connection could not be established with host localhost [Connection refused #111]\n#0 /home/diem/symfony/lib/vendor/swiftmailer/classes/Swift/Transport/StreamBuffer.php(70): Swift_Transport_StreamBuffer->_establishSocketConnection()\n#1 /home/diem/symfony/lib/vendor/swiftmailer/classes/Swift/Transport/AbstractSmtpTransport.php(101): Swift_Transport_StreamBuffer->initialize(Array)\n#2 /home/diem/symfony/lib/vendor/swiftmailer/classes/Swift/Mailer.php(74): Swift_Transport_AbstractSmtpTransport->start()\n#3 /home/diem/symfony/lib/mailer/sfMailer.class.php(300): Swift_Mailer->send(Object(Swift_Message), Array)\n#4 /var/www/dmshop/apps/front/modules/order/actions/actions.class.php(52): sfMailer->send(Object(Swift_Message))\n#5 /home/diem/dmFrontPlugin/modules/dmFront/lib/BasedmFrontActions.class.php(180): orderActions->executeFormWidget(Object(dmWebRequest))\n#6 /home/diem/dmFrontPlugin/modules/dmFront/lib/BasedmFrontActions.class.php(126): BasedmFrontActions->launchDirectActions()\n#7 /home/diem/dmFrontPlugin/modules/dmFront/lib/BasedmFrontActions.class.php(12): BasedmFrontActions->renderPage()\n#8 /home/diem/symfony/lib/action/sfActions.class.php(60): BasedmFrontActions->executePage(Object(dmWebRequest))\n#9 /home/diem/symfony/lib/filter/sfExecutionFilter.class.php(92): sfActions->execute(Object(dmWebRequest))\n#10 /home/diem/symfony/lib/filter/sfExecutionFilter.class.php(78): sfExecutionFilter->executeAction(Object(dmFrontActions))\n#11 /home/diem/symfony/lib/filter/sfExecutionFilter.class.php(42): sfExecutionFilter->handleAction(Object(sfFilterChain), Object(dmFrontActions))\n#12 /home/diem/symfony/lib/filter/sfFilterChain.class.php(53): sfExecutionFilter->execute(Object(sfFilterChain))\n#13 /home/diem/dmFrontPlugin/lib/filter/dmFrontInitFilter.php(34): sfFilterChain->execute()\n#14 /home/diem/symfony/lib/filter/sfFilterChain.class.php(53): dmFrontInitFilter->execute(Object(sfFilterChain))\n#15 /home/diem/dmCorePlugin/plugins/dmUserPlugin/lib/dmRememberMeFilter.class.php(56): sfFilterChain->execute()\n#16 /home/diem/symfony/lib/filter/sfFilterChain.class.php(53): dmRememberMeFilter->execute(Object(sfFilterChain))\n#17 /home/diem/symfony/lib/filter/sfRenderingFilter.class.php(33): sfFilterChain->execute()\n#18 /home/diem/symfony/lib/filter/sfFilterChain.class.php(53): sfRenderingFilter->execute(Object(sfFilterChain))\n#19 /home/diem/symfony/lib/controller/sfController.class.php(238): sfFilterChain->execute()\n#20 /home/diem/symfony/lib/controller/sfFrontWebController.class.php(48): sfController->forward('dmFront', 'page')\n#21 /home/diem/dmCorePlugin/lib/context/dmContext.php(290): sfFrontWebController->dispatch()\n#22 /var/www/dmshop/web/dev.php(7): dmContext->dispatch()\n#23 {main}"
+    module: dmFront
+    action: page
+    uri: 'http://localhost/dmshop/web/dev.php/order'
+    env: dev
+    created_at: '2011-04-01 19:48:18'
+  DmError_8:
+    php_class: InvalidArgumentException
+    name: 'Cannot redirect to an empty URL.'
+    description: "Cannot redirect to an empty URL.\n#0 /home/diem/dmCorePlugin/lib/controller/dmFrontWebController.php(12): sfWebController->redirect(NULL, 0, 302)\n#1 /home/diem/symfony/lib/action/sfAction.class.php(202): dmFrontWebController->redirect(NULL, 0, 302)\n#2 /var/www/dmshop/apps/front/modules/order/actions/actions.class.php(59): sfAction->redirect(NULL)\n#3 /home/diem/dmFrontPlugin/modules/dmFront/lib/BasedmFrontActions.class.php(180): orderActions->executeFormWidget(Object(dmWebRequest))\n#4 /home/diem/dmFrontPlugin/modules/dmFront/lib/BasedmFrontActions.class.php(126): BasedmFrontActions->launchDirectActions()\n#5 /home/diem/dmFrontPlugin/modules/dmFront/lib/BasedmFrontActions.class.php(12): BasedmFrontActions->renderPage()\n#6 /home/diem/symfony/lib/action/sfActions.class.php(60): BasedmFrontActions->executePage(Object(dmWebRequest))\n#7 /home/diem/symfony/lib/filter/sfExecutionFilter.class.php(92): sfActions->execute(Object(dmWebRequest))\n#8 /home/diem/symfony/lib/filter/sfExecutionFilter.class.php(78): sfExecutionFilter->executeAction(Object(dmFrontActions))\n#9 /home/diem/symfony/lib/filter/sfExecutionFilter.class.php(42): sfExecutionFilter->handleAction(Object(sfFilterChain), Object(dmFrontActions))\n#10 /home/diem/symfony/lib/filter/sfFilterChain.class.php(53): sfExecutionFilter->execute(Object(sfFilterChain))\n#11 /home/diem/dmFrontPlugin/lib/filter/dmFrontInitFilter.php(34): sfFilterChain->execute()\n#12 /home/diem/symfony/lib/filter/sfFilterChain.class.php(53): dmFrontInitFilter->execute(Object(sfFilterChain))\n#13 /home/diem/dmCorePlugin/plugins/dmUserPlugin/lib/dmRememberMeFilter.class.php(56): sfFilterChain->execute()\n#14 /home/diem/symfony/lib/filter/sfFilterChain.class.php(53): dmRememberMeFilter->execute(Object(sfFilterChain))\n#15 /home/diem/symfony/lib/filter/sfRenderingFilter.class.php(33): sfFilterChain->execute()\n#16 /home/diem/symfony/lib/filter/sfFilterChain.class.php(53): sfRenderingFilter->execute(Object(sfFilterChain))\n#17 /home/diem/symfony/lib/controller/sfController.class.php(238): sfFilterChain->execute()\n#18 /home/diem/symfony/lib/controller/sfFrontWebController.class.php(48): sfController->forward('dmFront', 'page')\n#19 /home/diem/dmCorePlugin/lib/context/dmContext.php(290): sfFrontWebController->dispatch()\n#20 /var/www/dmshop/web/dev.php(7): dmContext->dispatch()\n#21 {main}"
+    module: dmFront
+    action: page
+    uri: 'http://localhost/dmshop/web/dev.php/order'
+    env: dev
+    created_at: '2011-04-01 19:51:10'
+  DmError_9:
+    php_class: Doctrine_Connection_Mysql_Exception
+    name: 'SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`dmshop`.`order_detail`, CONSTRAINT `order_detail_order_id_orders_id` FOREIGN KEY (`order_id`) REFERENCES `orders` (`id`))'
+    description: "SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`dmshop`.`order_detail`, CONSTRAINT `order_detail_order_id_orders_id` FOREIGN KEY (`order_id`) REFERENCES `orders` (`id`))\n#0 /home/diem/symfony/lib/plugins/sfDoctrinePlugin/lib/vendor/doctrine/Doctrine/Connection/Statement.php(269): Doctrine_Connection->rethrowException(Object(PDOException), Object(Doctrine_Connection_Statement))\n#1 /home/diem/symfony/lib/plugins/sfDoctrinePlugin/lib/vendor/doctrine/Doctrine/Connection.php(1042): Doctrine_Connection_Statement->execute(Array)\n#2 /home/diem/symfony/lib/plugins/sfDoctrinePlugin/lib/vendor/doctrine/Doctrine/Query/Abstract.php(980): Doctrine_Connection->exec('DELETE FROM ord...', Array)\n#3 /home/diem/symfony/lib/plugins/sfDoctrinePlugin/lib/vendor/doctrine/Doctrine/Query/Abstract.php(1033): Doctrine_Query_Abstract->_execute(Array)\n#4 /home/diem/dmAdminPlugin/lib/action/base/dmAdminBaseGeneratedModuleActions.php(583): Doctrine_Query_Abstract->execute()\n#5 /home/diem/dmAdminPlugin/lib/action/base/dmAdminBaseGeneratedModuleActions.php(555): dmAdminBaseGeneratedModuleActions->executeBatchDelete(Object(dmWebRequest))\n#6 /home/diem/symfony/lib/action/sfActions.class.php(60): dmAdminBaseGeneratedModuleActions->executeBatch(Object(dmWebRequest))\n#7 /home/diem/symfony/lib/filter/sfExecutionFilter.class.php(92): sfActions->execute(Object(dmWebRequest))\n#8 /home/diem/symfony/lib/filter/sfExecutionFilter.class.php(78): sfExecutionFilter->executeAction(Object(orderActions))\n#9 /home/diem/symfony/lib/filter/sfExecutionFilter.class.php(42): sfExecutionFilter->handleAction(Object(sfFilterChain), Object(orderActions))\n#10 /home/diem/symfony/lib/filter/sfFilterChain.class.php(53): sfExecutionFilter->execute(Object(sfFilterChain))\n#11 /home/diem/dmAdminPlugin/lib/filter/dmAdminInitFilter.php(32): sfFilterChain->execute()\n#12 /home/diem/symfony/lib/filter/sfFilterChain.class.php(53): dmAdminInitFilter->execute(Object(sfFilterChain))\n#13 /home/diem/symfony/lib/filter/sfBasicSecurityFilter.class.php(72): sfFilterChain->execute()\n#14 /home/diem/symfony/lib/filter/sfFilterChain.class.php(53): sfBasicSecurityFilter->execute(Object(sfFilterChain))\n#15 /home/diem/dmCorePlugin/plugins/dmUserPlugin/lib/dmRememberMeFilter.class.php(56): sfFilterChain->execute()\n#16 /home/diem/symfony/lib/filter/sfFilterChain.class.php(53): dmRememberMeFilter->execute(Object(sfFilterChain))\n#17 /home/diem/symfony/lib/filter/sfRenderingFilter.class.php(33): sfFilterChain->execute()\n#18 /home/diem/symfony/lib/filter/sfFilterChain.class.php(53): sfRenderingFilter->execute(Object(sfFilterChain))\n#19 /home/diem/symfony/lib/controller/sfController.class.php(238): sfFilterChain->execute()\n#20 /home/diem/symfony/lib/controller/sfFrontWebController.class.php(48): sfController->forward('order', 'batch')\n#21 /home/diem/dmCorePlugin/lib/context/dmContext.php(290): sfFrontWebController->dispatch()\n#22 /var/www/dmshop/web/admin_dev.php(7): dmContext->dispatch()\n#23 {main}"
+    module: order
+    action: batch
+    uri: 'http://localhost/dmshop/web/admin_dev.php/content/global/orders/batch'
+    env: dev
+    created_at: '2011-04-01 23:24:26'
+  DmError_10:
+    php_class: Doctrine_Connection_Mysql_Exception
+    name: 'SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`dmshop`.`order_detail`, CONSTRAINT `order_detail_order_id_orders_id` FOREIGN KEY (`order_id`) REFERENCES `orders` (`id`))'
+    description: "SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`dmshop`.`order_detail`, CONSTRAINT `order_detail_order_id_orders_id` FOREIGN KEY (`order_id`) REFERENCES `orders` (`id`))\n#0 /home/diem/symfony/lib/plugins/sfDoctrinePlugin/lib/vendor/doctrine/Doctrine/Connection/Statement.php(269): Doctrine_Connection->rethrowException(Object(PDOException), Object(Doctrine_Connection_Statement))\n#1 /home/diem/symfony/lib/plugins/sfDoctrinePlugin/lib/vendor/doctrine/Doctrine/Connection.php(1042): Doctrine_Connection_Statement->execute(Array)\n#2 /home/diem/symfony/lib/plugins/sfDoctrinePlugin/lib/vendor/doctrine/Doctrine/Connection/UnitOfWork.php(256): Doctrine_Connection->exec('DELETE FROM ord...', Array)\n#3 /home/diem/symfony/lib/plugins/sfDoctrinePlugin/lib/vendor/doctrine/Doctrine/Connection/UnitOfWork.php(173): Doctrine_Connection_UnitOfWork->_executeDeletions(Array)\n#4 /home/diem/symfony/lib/plugins/sfDoctrinePlugin/lib/vendor/doctrine/Doctrine/Record.php(2182): Doctrine_Connection_UnitOfWork->delete(Object(Order))\n#5 /var/www/dmshop/cache/admin/dev/modules/autoOrder/actions/actions.class.php(180): Doctrine_Record->delete()\n#6 /home/diem/symfony/lib/action/sfActions.class.php(60): autoOrderActions->executeDelete(Object(dmWebRequest))\n#7 /home/diem/symfony/lib/filter/sfExecutionFilter.class.php(92): sfActions->execute(Object(dmWebRequest))\n#8 /home/diem/symfony/lib/filter/sfExecutionFilter.class.php(78): sfExecutionFilter->executeAction(Object(orderActions))\n#9 /home/diem/symfony/lib/filter/sfExecutionFilter.class.php(42): sfExecutionFilter->handleAction(Object(sfFilterChain), Object(orderActions))\n#10 /home/diem/symfony/lib/filter/sfFilterChain.class.php(53): sfExecutionFilter->execute(Object(sfFilterChain))\n#11 /home/diem/dmAdminPlugin/lib/filter/dmAdminInitFilter.php(32): sfFilterChain->execute()\n#12 /home/diem/symfony/lib/filter/sfFilterChain.class.php(53): dmAdminInitFilter->execute(Object(sfFilterChain))\n#13 /home/diem/symfony/lib/filter/sfBasicSecurityFilter.class.php(72): sfFilterChain->execute()\n#14 /home/diem/symfony/lib/filter/sfFilterChain.class.php(53): sfBasicSecurityFilter->execute(Object(sfFilterChain))\n#15 /home/diem/dmCorePlugin/plugins/dmUserPlugin/lib/dmRememberMeFilter.class.php(56): sfFilterChain->execute()\n#16 /home/diem/symfony/lib/filter/sfFilterChain.class.php(53): dmRememberMeFilter->execute(Object(sfFilterChain))\n#17 /home/diem/symfony/lib/filter/sfRenderingFilter.class.php(33): sfFilterChain->execute()\n#18 /home/diem/symfony/lib/filter/sfFilterChain.class.php(53): sfRenderingFilter->execute(Object(sfFilterChain))\n#19 /home/diem/symfony/lib/controller/sfController.class.php(238): sfFilterChain->execute()\n#20 /home/diem/symfony/lib/controller/sfFrontWebController.class.php(48): sfController->forward('order', 'delete')\n#21 /home/diem/dmCorePlugin/lib/context/dmContext.php(290): sfFrontWebController->dispatch()\n#22 /var/www/dmshop/web/admin_dev.php(7): dmContext->dispatch()\n#23 {main}"
+    module: order
+    action: delete
+    uri: 'http://localhost/dmshop/web/admin_dev.php/content/global/orders/delete/pk/1'
+    env: dev
+    created_at: '2011-04-01 23:54:37'
+DmWidget:
+  DmWidget_1:
+    Zone: DmZone_1
+    module: dmWidgetContent
+    action: title
+    css_class: null
+    position: '-1'
+    updated_at: '2011-04-01 15:42:13'
+  DmWidget_2:
+    Zone: DmZone_2
+    module: dmUser
+    action: signin
+    css_class: null
+    position: '-2'
+    updated_at: '2011-04-01 15:42:13'
+  DmWidget_4:
+    Zone: DmZone_7
+    module: main
+    action: footer
+    css_class: ''
+    position: '1'
+    updated_at: '2011-04-01 15:58:45'
+  DmWidget_5:
+    Zone: DmZone_3
+    module: main
+    action: header
+    css_class: ''
+    position: '1'
+    updated_at: '2011-04-01 16:02:08'
+  DmWidget_7:
+    Zone: DmZone_5
+    module: product
+    action: listByAction
+    css_class: ''
+    position: '1'
+    updated_at: '2011-04-01 16:11:21'
+  DmWidget_8:
+    Zone: DmZone_4
+    module: dmWidgetContent
+    action: text
+    css_class: ''
+    position: '2'
+    updated_at: '2011-04-01 16:59:18'
+  DmWidget_9:
+    Zone: DmZone_6
+    module: product
+    action: shortCart
+    css_class: ''
+    position: '1'
+    updated_at: '2011-04-01 16:23:22'
+  DmWidget_10:
+    Zone: DmZone_4
+    module: category
+    action: listOnSidebar
+    css_class: ''
+    position: '1'
+    updated_at: '2011-04-01 16:59:24'
+  DmWidget_11:
+    Zone: DmZone_9
+    module: product
+    action: viewCart
+    css_class: ''
+    position: '1'
+    updated_at: '2011-04-01 17:00:00'
+  DmWidget_13:
+    Zone: DmZone_10
+    module: product
+    action: listByCategory
+    css_class: ''
+    position: '1'
+    updated_at: '2011-04-01 17:05:31'
+  DmWidget_15:
+    Zone: DmZone_11
+    module: order
+    action: form
+    css_class: ''
+    position: '2'
+    updated_at: '2011-04-01 19:29:45'
+  DmWidget_16:
+    Zone: DmZone_12
+    module: order
+    action: view
+    css_class: ''
+    position: '1'
+    updated_at: '2011-04-01 19:51:55'
+DmMediaFolder:
+  DmMediaFolder_1:
+    rel_path: ''
+    lft: '1'
+    rgt: '8'
+    level: '0'
+  DmMediaFolder_2:
+    rel_path: assets
+    lft: '2'
+    rgt: '3'
+    level: '1'
+  DmMediaFolder_3:
+    rel_path: category
+    lft: '4'
+    rgt: '5'
+    level: '1'
+  DmMediaFolder_4:
+    rel_path: product
+    lft: '6'
+    rgt: '7'
+    level: '1'
+DmMailTemplateTranslation:
+  DmMailTemplateTranslation_1_en:
+    DmMailTemplate: DmMailTemplate_1
+    description: 'Sent to a user that requests a new password'
+    subject: 'Dmshop: change your password'
+    body: "Hello %username%\nYou can choose a new password at %step2_url%"
+    from_email: webmaster@domain.com
+    to_email: '%email%'
+    cc_email: null
+    bcc_email: null
+    reply_to_email: null
+    sender_email: null
+    list_unsuscribe: null
+    is_html: false
+    is_active: true
+    lang: en
+DmSettingTranslation:
+  DmSettingTranslation_1_en:
+    DmSetting: DmSetting_1
+    description: 'The site name'
+    value: Dmshop
+    default_value: Dmshop
+    lang: en
+  DmSettingTranslation_2_en:
+    DmSetting: DmSetting_2
+    description: 'Is the site ready for visitors ?'
+    value: '1'
+    default_value: '1'
+    lang: en
+  DmSettingTranslation_3_en:
+    DmSetting: DmSetting_3
+    description: 'Is the site ready for search engine crawlers ?'
+    value: '1'
+    default_value: '1'
+    lang: en
+  DmSettingTranslation_4_en:
+    DmSetting: DmSetting_4
+    description: 'Is this site the current working copy ?'
+    value: '1'
+    default_value: '1'
+    lang: en
+  DmSettingTranslation_5_en:
+    DmSetting: DmSetting_5
+    description: 'The google analytics key without javascript stuff ( e.g. UA-9876614-1 )'
+    value: null
+    default_value: ''
+    lang: en
+  DmSettingTranslation_6_en:
+    DmSetting: DmSetting_6
+    description: 'Auth token gor Google Analytics, computed from password'
+    value: null
+    default_value: ''
+    lang: en
+  DmSettingTranslation_7_en:
+    DmSetting: DmSetting_7
+    description: 'The google webmaster tools filename without google and .html ( e.g. a913b555ba9b4f13 )'
+    value: null
+    default_value: ''
+    lang: en
+  DmSettingTranslation_8_en:
+    DmSetting: DmSetting_8
+    description: 'The xiti html code'
+    value: null
+    default_value: ''
+    lang: en
+  DmSettingTranslation_9_en:
+    DmSetting: DmSetting_9
+    description: 'Words to exclude from searches (e.g. the, a, to )'
+    value: null
+    default_value: ''
+    lang: en
+  DmSettingTranslation_10_en:
+    DmSetting: DmSetting_10
+    description: 'Diem base urls for different applications/environments/cultures'
+    value: '{"front-prod":"http:\/\/localhost\/dmshop\/web\/index.php","admin-dev":"http:\/\/localhost\/dmshop\/web\/admin_dev.php","front-dev":"http:\/\/localhost\/dmshop\/web\/dev.php"}'
+    default_value: ''
+    lang: en
+  DmSettingTranslation_11_en:
+    DmSetting: DmSetting_11
+    description: 'Default method when an image needs to be resized'
+    value: center
+    default_value: center
+    lang: en
+  DmSettingTranslation_12_en:
+    DmSetting: DmSetting_12
+    description: 'Jpeg default quality when generating thumbnails'
+    value: '95'
+    default_value: '95'
+    lang: en
+  DmSettingTranslation_13_en:
+    DmSetting: DmSetting_13
+    description: 'Links to other domain get automatically a _blank target'
+    value: null
+    default_value: '0'
+    lang: en
+  DmSettingTranslation_14_en:
+    DmSetting: DmSetting_14
+    description: 'Links to current page are changed from <a> to <span>'
+    value: '1'
+    default_value: '1'
+    lang: en
+  DmSettingTranslation_15_en:
+    DmSetting: DmSetting_15
+    description: 'Add an automatic title on link based on the target page title'
+    value: '1'
+    default_value: '1'
+    lang: en
+  DmSettingTranslation_16_en:
+    DmSetting: DmSetting_16
+    description: 'Append something at the beginning of all pages title'
+    value: null
+    default_value: ''
+    lang: en
+  DmSettingTranslation_17_en:
+    DmSetting: DmSetting_17
+    description: 'Append something at the end of all pages title'
+    value: ' | Dmshop'
+    default_value: ' | Dmshop'
+    lang: en
+  DmSettingTranslation_18_en:
+    DmSetting: DmSetting_18
+    description: 'When a page is not found, user is redirect to a similar page. The internal search index is used to find the best page for requested url.'
+    value: '1'
+    default_value: '1'
+    lang: en
+  DmSettingTranslation_19_en:
+    DmSetting: DmSetting_19
+    description: ''
+    value: noreply@site.name
+    default_value: ''
+    lang: en
+  DmSettingTranslation_20_en:
+    DmSetting: DmSetting_20
+    description: ''
+    value: MySite
+    default_value: ''
+    lang: en
+  DmSettingTranslation_21_en:
+    DmSetting: DmSetting_21
+    description: ''
+    value: '+1 44'
+    default_value: ''
+    lang: en
+  DmSettingTranslation_22_en:
+    DmSetting: DmSetting_22
+    description: ''
+    value: 'http://site.name'
+    default_value: ''
+    lang: en
+  DmSettingTranslation_23_en:
+    DmSetting: DmSetting_23
+    description: ''
+    value: MyStore
+    default_value: ''
+    lang: en
+DmAutoSeoTranslation:
+  DmAutoSeoTranslation_1_en:
+    DmAutoSeo: DmAutoSeo_1
+    slug: '%category.name%'
+    name: '%category.name%'
+    title: '%category.name%'
+    h1: null
+    description: '%category.description%'
+    keywords: null
+    strip_words: null
+    lang: en
+  DmAutoSeoTranslation_2_en:
+    DmAutoSeo: DmAutoSeo_2
+    slug: '%product.name%'
+    name: '%product.name%'
+    title: '%product.name%'
+    h1: null
+    description: '%product.description%'
+    keywords: null
+    strip_words: null
+    lang: en
+DmMediaTranslation:
+  DmMediaTranslation_1_en:
+    DmMedia: DmMedia_1
+    legend: ''
+    author: ''
+    license: ''
+    lang: en
+  DmMediaTranslation_2_en:
+    DmMedia: DmMedia_2
+    legend: ''
+    author: ''
+    license: ''
+    lang: en
+  DmMediaTranslation_3_en:
+    DmMedia: DmMedia_3
+    legend: ''
+    author: ''
+    license: ''
+    lang: en
+DmPageTranslation:
+  DmPageTranslation_1_en:
+    DmPage: DmPage_1
+    slug: ''
+    name: Home
+    title: Home
+    h1: null
+    description: null
+    keywords: null
+    auto_mod: snthdk
+    is_active: true
+    is_secure: false
+    is_indexable: true
+    lang: en
+  DmPageTranslation_2_en:
+    DmPage: DmPage_2
+    slug: error404
+    name: 'Page not found'
+    title: 'Page not found'
+    h1: null
+    description: null
+    keywords: null
+    auto_mod: snthdk
+    is_active: true
+    is_secure: false
+    is_indexable: true
+    lang: en
+  DmPageTranslation_3_en:
+    DmPage: DmPage_3
+    slug: security/signin
+    name: Signin
+    title: Signin
+    h1: null
+    description: null
+    keywords: null
+    auto_mod: snthdk
+    is_active: true
+    is_secure: false
+    is_indexable: true
+    lang: en
+  DmPageTranslation_4_en:
+    DmPage: DmPage_4
+    slug: categories
+    name: Categories
+    title: Categories
+    h1: null
+    description: Categories
+    keywords: null
+    auto_mod: snthdk
+    is_active: true
+    is_secure: false
+    is_indexable: true
+    lang: en
+  DmPageTranslation_5_en:
+    DmPage: DmPage_5
+    slug: categories/notebooks
+    name: Notebooks
+    title: Notebooks
+    h1: null
+    description: 'notebooks goes here'
+    keywords: null
+    auto_mod: snthdk
+    is_active: true
+    is_secure: false
+    is_indexable: true
+    lang: en
+  DmPageTranslation_6_en:
+    DmPage: DmPage_6
+    slug: categories/notebooks/toshiba
+    name: Toshiba
+    title: Toshiba
+    h1: null
+    description: toshiba
+    keywords: null
+    auto_mod: snthdk
+    is_active: true
+    is_secure: false
+    is_indexable: true
+    lang: en
+  DmPageTranslation_7_en:
+    DmPage: DmPage_7
+    slug: show-cart
+    name: 'Show cart'
+    title: 'Show cart'
+    h1: null
+    description: null
+    keywords: null
+    auto_mod: snthdk
+    is_active: true
+    is_secure: false
+    is_indexable: true
+    lang: en
+  DmPageTranslation_8_en:
+    DmPage: DmPage_8
+    slug: categories/notebooks/asus
+    name: Asus
+    title: Asus
+    h1: null
+    description: asus
+    keywords: null
+    auto_mod: snthdk
+    is_active: true
+    is_secure: false
+    is_indexable: true
+    lang: en
+  DmPageTranslation_9_en:
+    DmPage: DmPage_9
+    slug: order
+    name: Order
+    title: Order
+    h1: null
+    description: null
+    keywords: null
+    auto_mod: snthdk
+    is_active: true
+    is_secure: false
+    is_indexable: true
+    lang: en
+  DmPageTranslation_10_en:
+    DmPage: DmPage_10
+    slug: ordershow
+    name: OrderShow
+    title: OrderShow
+    h1: null
+    description: null
+    keywords: null
+    auto_mod: snthdk
+    is_active: true
+    is_secure: false
+    is_indexable: true
+    lang: en
+DmWidgetTranslation:
+  DmWidgetTranslation_1_en:
+    DmWidget: DmWidget_1
+    value: '{"text":"Page not found","tag":"h1"}'
+    lang: en
+  DmWidgetTranslation_2_en:
+    DmWidget: DmWidget_2
+    value: '[]'
+    lang: en
+  DmWidgetTranslation_4_en:
+    DmWidget: DmWidget_4
+    value: '[]'
+    lang: en
+  DmWidgetTranslation_5_en:
+    DmWidget: DmWidget_5
+    value: '[]'
+    lang: en
+  DmWidgetTranslation_7_en:
+    DmWidget: DmWidget_7
+    value: '{"orderField":"position","orderType":"asc","maxPerPage":5,"navTop":false,"navBottom":false}'
+    lang: en
+  DmWidgetTranslation_8_en:
+    DmWidget: DmWidget_8
+    value: '{"title":"","text":"news here","mediaId":null,"titleLink":"","mediaLink":"","titlePosition":"outside","width":"","height":"","legend":"","method":"center","background":"FFFFFF","quality":null}'
+    lang: en
+  DmWidgetTranslation_9_en:
+    DmWidget: DmWidget_9
+    value: '[]'
+    lang: en
+  DmWidgetTranslation_10_en:
+    DmWidget: DmWidget_10
+    value: '{"orderField":"position","orderType":"asc","maxPerPage":5,"navTop":false,"navBottom":false}'
+    lang: en
+  DmWidgetTranslation_11_en:
+    DmWidget: DmWidget_11
+    value: '[]'
+    lang: en
+  DmWidgetTranslation_13_en:
+    DmWidget: DmWidget_13
+    value: '{"orderField":"position","orderType":"asc","maxPerPage":5,"categoryFilter":null,"navTop":false,"navBottom":false}'
+    lang: en
+  DmWidgetTranslation_15_en:
+    DmWidget: DmWidget_15
+    value: '[]'
+    lang: en
+  DmWidgetTranslation_16_en:
+    DmWidget: DmWidget_16
+    value: '[]'
+    lang: en

@@ -1,0 +1,55 @@
+generator:
+  class: dmAdminDoctrineGenerator
+  param:
+    model_class: Order
+    theme: dmAdmin
+    non_verbose_templates: true
+    with_show: false
+    route_prefix: order
+    with_doctrine_route: false
+    i18n_catalogue: dm
+    config:
+      actions: ~
+      fields: {  }
+      list:
+        display:
+          - '=id'
+          - company
+          - email
+          - contact
+          - phone
+          - ship_address
+          - ship_date
+          - ship_time
+          - note
+          - uid
+          - created_at
+          - updated_at
+        sort:
+          - created_at
+          - desc
+        table_method: getAdminListQuery
+        table_count_method: ~
+        sortable: false
+      filter:
+        display:
+          - id
+          - company
+          - email
+          - contact
+          - phone
+          - ship_address
+          - ship_date
+          - ship_time
+          - note
+          - uid
+          - created_at
+          - updated_at
+      form:
+        display:
+          Note: [note]
+          Others: [company, email, contact, phone, ship_address, ship_date, ship_time, uid]
+        class: OrderAdminForm
+        fields: {  }
+      edit: ~
+      new: ~

@@ -1,0 +1,13 @@
+all:
+
+  theming:                                        # front css themes
+    themes:                                       # list of themes
+      "Default":
+        dir:              theme                   # relative to web dir
+        enabled:          true                    # theme disponibility
+
+  html:
+    doctype:
+      name:               html                    # Doctype name ( 'html', 'xhtml' )
+      version:            5                       # Doctype xhtml version ( '1.0', '1.1' ) or html version ( '4', '5' )
+      compliance:         transitional            # Doctype xhtml compliance ( 'strict', 'transitional' )
